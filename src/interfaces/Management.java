@@ -1,7 +1,8 @@
 package interfaces;
 
 public interface Management {
-    void printPersonal();
+    void printPersons();
+    void printPersonalById(int id);
     void addPerson();
     void findPerson();
     void deletePersonById();
